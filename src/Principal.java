@@ -16,11 +16,16 @@ public class Principal {
         pessoa3.setNome("Cauã");
         pessoa3.setIdade(3);
 
+        Pessoa pessoa4 = new Pessoa();
+        pessoa4.setNome("Marina");
+        pessoa4.setIdade(19);
+
         ArrayList<Pessoa> listaDePessoas = new ArrayList<>();
 
         listaDePessoas.add(pessoa1);
         listaDePessoas.add(pessoa2);
         listaDePessoas.add(pessoa3);
+        listaDePessoas.add(pessoa4);
 
         System.out.println("O tamanho da lista de pessoas é: " + listaDePessoas.size());
         System.out.println("A primeira pessoa dessa lista é: " + listaDePessoas.get(0));
